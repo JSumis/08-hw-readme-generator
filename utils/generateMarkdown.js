@@ -14,6 +14,50 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Table of Contents:
+  - Description
+  - Installation
+  - Usage
+  - License
+  - Contributing
+  - Testing
+  - Questions
+
+  ## Description
+
+  ${data.description}
+
+  ## Installation
+
+  ${data.dependencies}
+
+  ## Usage
+
+  ${data.dependencies}
+
+  ## License
+
+  ${data.license}
+
+  ## Contributing
+
+  ${data.dependencies}
+
+  ## Testing
+
+  ${data.test}
+
+  ## Questions
+
+  ${data.dependencies}
+
+  ## Contact
+
+  You can find me on Github at https//github.com/${data.username}
+
+  You can email me at ${data.email}
+
+
 `;
 }
 
