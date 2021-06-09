@@ -57,13 +57,12 @@ inquirer
       },
   ])
 
-
 // TODO: Create a function to write README file
 
 .then((data) => {
 const readMeContent = generateMarkdown(data);
 
-fs.writeFile('README1.md', readMeContent, (err) =>
+fs.writeFile('README.md', readMeContent, (err) =>
   err ? console.error(err) : console.log('You successfully created a README file!')
 );
 });
@@ -73,4 +72,3 @@ function init() {}
 
 // Function call to initialize app
 init();
-
