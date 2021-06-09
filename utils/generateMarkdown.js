@@ -30,46 +30,51 @@ ${renderLicenseBadge(data.license)}
 
 
   ## Table of Contents:
-  - Description
-  - Installation
-  - Usage
-  - License
-  - Contributing
-  - Testing
-  - Questions
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Testing](#testing)
+  - [Questions](#questions)
 
+  <br />
   ## Description
 
   ${data.description}
 
+  <br />
   ## Installation
 
   ${data.dependencies}
 
+  <br />
   ## Usage
 
   ${data.repo}
 
-  ## License
-
-  ${data.license}
-
-  ${renderLicenseLink(data.license)}
-
+  <br />
   ## Contributing
 
   ${data.contribute}
 
+  <br />
   ## Testing
 
   ${data.test}
 
+  <br />
   ## Questions
 
   You can find me on Github at https://github.com/${data.username}/
 
   You can email me at ${data.email}
 
+  <br />
+  ## License
+  
+  ${data.license}
+  ${renderLicenseLink(data.license)}
 `;
 }
 
